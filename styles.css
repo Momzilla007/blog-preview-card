@@ -1,7 +1,32 @@
 body {
+    min-height: 100dvh;
+    margin: 0;
+    font-family: Figtree;
+    background-color: #f4d04e;
 
 }
 
 main {
-    
+    display: flexbox;
+    flex-direction: column;
 }
+
+.card {
+    flex-direction: row;
+
+}
+
+h1 {
+    font-weight: 800;
+}
+
+p {
+    font-weight: 300;
+}
+
+
+/* colours: 
+
+yellow #f4d04e
+
+
