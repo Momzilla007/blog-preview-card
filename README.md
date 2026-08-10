@@ -48,11 +48,16 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 1. Set up README.md and added files to .gitignore that are not relevant. 
 
-2. Layout HTML and add in semantic tags. Set the Heading tags in the relevant position.  
+2. Layout HTML and add in semantic tags. Set the Heading tags in the relevant positions and add in image links.
 
 3. Create external css style sheet and link to index.html. 
 
 4. Install font and set up body properties, then do a quick git push. 
+
+5. Added in comments to clearly mark sections and purposes in the HTML and CSS files. Also adding in style properties to the card and page, and added in a wrapper to the main. Also set the properties for the img in the header section of the card. 
+
+6. Another quick git push of the new changes. 
+
 
 
 
@@ -104,7 +109,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
+- [W3 Schools CSS Reference](https://www.w3schools.com/cssref/css3_pr_box-shadow.php) - This helped me determining the correct property values to use for the card shadow.
 - [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
