@@ -1,17 +1,17 @@
 body {
-    min-height: 100dvh;
-    margin: 0;
-    font-family: Figtree;
+    max-height: 100vh;
+    max-width: 100vh;
+    font-family: "Figtree";
     background-color: #f4d04e;
-
-}
-
-main {
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+
 }
 
+/* hero image on the card */
 header img{
     width: 100%;
     height: 100%;
@@ -21,11 +21,11 @@ header img{
 }
 
 .wrapper {
+    width: 60%;
+    height: auto;
     box-sizing: border-box;
-    width: fit-content;
     padding: 1rem;
     background-color: #fff;
-    max-width: fit-content;
     border-radius: 20px;
     border: 2px solid #121212;
     box-shadow: 10px 10px 0 0#121212 ;
@@ -34,17 +34,16 @@ header img{
 
 /* not sure about the card css yet... */
 .card {
-    width: fit-content;
+    justify-content: center;
     height: auto;
 
 }
 
-
-
 .author {
     box-sizing: border-box;
     display: grid;
-    grid-template-columns: 12% 80%;
+    grid-template-columns: 20% 80%;
+    gap: 2%;
 }
 
 h1 {
@@ -53,7 +52,7 @@ h1 {
 
 p {
     font-weight: 300;
-    width: 50%;
+    color: #6b6b6b;
 }
 
 
