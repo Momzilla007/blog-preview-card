@@ -1,20 +1,21 @@
 body {
-    height: 100vh;
-    width: auto;
-    font-family: "Figtree";
-    line-height: 1.7;
-    background-color: #f4d04e;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    flex-wrap: nowrap;
+    min-height: 100vh;
+    margin: 0;
+    font-family: "Figtree";
+    line-height: 1.7;
+    background-color: #f4d04e;
 
 }
 
 .card {
     padding: 1rem;
 }
+
 /* hero image on the card */
 .card-img {
     width: 100%;
@@ -22,18 +23,15 @@ body {
     object-fit: cover;
     object-position: center;
     border-radius: 20px;
-}
-
-main {
-    display: flex;
-    padding-top: 2rem;
 
 }
 
 .wrapper {
-    max-width: 50dvw;
-    height: fit-content;
-    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+    width: clamp(300px, 30vw, 400px); 
+    height: auto;
+    position: relative;
     background-color: #fff;
     border-radius: 20px;
     border: 2px solid #121212;
@@ -41,16 +39,20 @@ main {
 
 }
 
-
 .author {
+    flex: 1;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
     padding-top: 1.5em;
+    gap: 2%;
 }
 
 .author img {
-    padding-right: 2%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    
 }
 
 h1 {
@@ -69,9 +71,13 @@ p {
     color: #121212;
 }
 
-a h1:hover {
-    color:#f4d04e;
+a h1:hover, 
+a h1:focus, 
+a h1:active  {
+    color: #f4d04e;
 }
+
+
 
 .title-bg-color {
     display: inline-block;
@@ -81,14 +87,19 @@ a h1:hover {
 
 }
 
-.attribution {
+footer {
     display: flex;
     flex-direction: row; 
     justify-content: center;
-    padding-top: 2rem;
     width: 100%;
-    height: auto;    
+    padding-top: 2%;
+    position: absolute;
+    bottom: 0;
 
+}
+
+.attribution {
+    font-size: 0.75rem;
 }
 
 .medium-font {
