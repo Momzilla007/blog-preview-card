@@ -58,6 +58,10 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 6. Another quick git push of the new changes. 
 
+7. Making css changes to adjust placement of card on page, and adding a css reset. Also add in the background box behind the h2 title which I decided not to make as a button, since it is not a button though it looks like one. Simply using css to do this.
+
+
+
 
 
 
