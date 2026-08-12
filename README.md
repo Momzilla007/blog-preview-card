@@ -58,7 +58,11 @@ Users should be able to:
 
 10. Another git push to send in the final changes and then I'll get my screenshots and do one more git push, and that will be it. This will be done and ready to submit. 
 
-11. Submitted challenge and reviewed solutions. Made suggested changes to the styles.css file and fixed the footer so it is not set by position but by flex margin-top: auto. Also changed the wrapper to a min function instead of a clamp function. I will need to read more on these functions. I just don't know enough about them. Also fixed hover and focus selectors to improve specificity. 
+11. Submitted challenge and reviewed solutions. Made suggested changes to the styles.css file and fixed the footer so it is not set by position but by flex margin-top: auto. Also changed the wrapper to a min function instead of a clamp function. I will need to read more on these functions. I just don't know enough about them. Also fixed hover and focus selectors to improve specificity.
+
+12. Fixing wrapper size to better match design mockup preview.
+
+13. Minor changes to wrapper width min function. 
 
 ### Built with
 
