@@ -28,14 +28,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
+![Desktop Screenshot](assets/images/screenshot.png)
 
 
 ### Links
@@ -65,6 +58,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 10. Another git push to send in the final changes and then I'll get my screenshots and do one more git push, and that will be it. This will be done and ready to submit. 
 
+11. Submitted challenge and reviewed solutions. Made suggested changes to the styles.css file and fixed the footer so it is not set by position but by flex margin-top: auto. Also changed the wrapper to a min function instead of a clamp function. I will need to read more on these functions. I just don't know enough about them. Also fixed hover and focus selectors to improve specificity. 
 
 ### Built with
 
@@ -106,4 +100,3 @@ Google AI was the only AI I used and while it was helpful, it wasn't entirely ac
 
 A fellow FEM user gave me some great feedback at the end of the QR Code Component challenge and I took that advice into this project, and utilized the clamp function. He helped refresh my memory on a few things too. Like, setting width and heights for images and a few other things that seem to have been archived in my old noggin. So, thank you to Vanza Setia. Much appreciated. 
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
