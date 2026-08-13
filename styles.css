@@ -29,7 +29,7 @@ body {
 .wrapper {
     display: flex;
     flex-direction: row;
-    width: min(100% - 2rem, 360px);
+    width: min(100% - rem, 400px);
     height: auto;
     margin-top: auto;
     background-color: #fff;
@@ -116,5 +116,5 @@ white #fff
 black #121212
 gray  #6b6b6b
 
-
+*/
 
